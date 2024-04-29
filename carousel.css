@@ -5,7 +5,9 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  color: #000000;
+  font-family: inherit;
+  background-color: rgb(242, 243, 238);
   
 }
 .idk{
@@ -108,4 +110,72 @@ body {
   .featurette-heading {
     margin-top: 3rem;
   }
+}
+
+/* 
+<!-- HTML !-->
+<button class="button-33" role="button">Button 33</button> */
+
+/* CSS */
+.button-33 {
+  background-color: rgb(221, 215, 191);
+  border-radius: 100px;
+  /* box-shadow: rgb(221, 215, 191) 0 -25px 18px -14px inset,rgb(221, 215, 191) 0 1px 2px,rgb(221, 215, 191) 0 2px 4px,rgb(221, 215, 191) 0 4px 8px,rgb(221, 215, 191) 0 8px 16px,rgb(221, 215, 191) 0 16px 32px; */
+  color: rgb(221, 215, 191);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}
+
+.button-33:hover {
+  /* box-shadow: rgb(221, 215, 191) 0 -25px 18px -14px inset,rgb(221, 215, 191) 0 1px 2px,rgb(221, 215, 191) 0 2px 4px,rgb(221, 215, 191) 0 4px 8px,rgb(221, 215, 191) 0 8px 16px,rgb(221, 215, 191) 0 16px 32px; */
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.button-334 {
+  background-color: rgb(242, 243, 238);
+  border-radius: 100px;
+  /* box-shadow: rgb(221, 215, 191) 0 -25px 18px -14px inset,rgb(221, 215, 191) 0 1px 2px,rgb(221, 215, 191) 0 2px 4px,rgb(221, 215, 191) 0 4px 8px,rgb(221, 215, 191) 0 8px 16px,rgb(221, 215, 191) 0 16px 32px; */
+  color: rgb(75, 97, 97);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  font-weight: bold;
+  font-family: inherit;
+  touch-action: manipulation;
+ 
+  
+}
+
+.button-334:hover {
+  /* box-shadow: rgb(221, 215, 191) 0 -25px 18px -14px inset,rgb(221, 215, 191) 0 1px 2px,rgb(221, 215, 191) 0 2px 4px,rgb(221, 215, 191) 0 4px 8px,rgb(221, 215, 191) 0 8px 16px,rgb(221, 215, 191) 0 16px 32px; */
+  transform: scale(1.05) rotate(-1deg);
+}
+.rownew{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.last {
+  ma
 }
